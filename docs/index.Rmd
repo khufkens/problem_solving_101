@@ -8,10 +8,12 @@ output:
     # change to true for a self-contained document
     # but it'll be a litte slower for Pandoc to render
     self_contained: true
+    #front_cover:
 lot: false # insert a list of tables
 lof: false # insert a list of figures
 # uncomment this line to produce HTML and PDF in RStudio:
 knit: pagedown::chrome_print
+
 ---
 
 # Knowing where to tap: the magical art of problem solving
